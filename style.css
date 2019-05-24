@@ -72,8 +72,6 @@
 /* Social */
 .social i{
     background-color: #961406;
-    width: 5vw;
-    height: 8vh;
     padding: 0.3rem;
     display: flex;
     margin: 0.8rem;
@@ -90,8 +88,6 @@
 
 .social i:hover{
     background-color: #4e6d0d;
-    width: 6vw;
-    height: 8vh;
     padding: 0.3rem auto;
     display: flex;
     margin: 0.8rem;
@@ -118,9 +114,19 @@
 }
 
 #headerpara a{
-    height: 6vh;
-    width: 12vw;
+    display: inline-block;
     background-color: #4e6d0d;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.2rem;
+    margin: 0.6rem;
+    border-radius: 5px;
+    
+}
+
+#headerpara a:hover{
+    background-color: #961406;
     color: whitesmoke;
     text-decoration: none;
     font-size: 0.9rem;
@@ -129,3 +135,42 @@
     border-radius: 5px;
     
 }
+
+/* Services */
+#services{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    
+}
+.servicetitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#ourcolor{
+    color: #961406;
+    
+}
+#servecolor{
+    color: #4e6d0d;
+    
+}
+
+#icons{
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+}
+
+#icons i{
+    background-color: #4e6d0d;
+    border-radius: 50%;
+    padding: 1rem;
+
+
+}
+
+
+
