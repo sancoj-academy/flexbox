@@ -5,7 +5,7 @@
 }
 
 .header{
-    background: url(/diamonds.png) center no-repeat;
+    background: url(/diamonds.png) center center/cover no-repeat;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -99,13 +99,33 @@
     text-align: inherit;
     cursor: pointer;
     
-
-    
 }
-#headerpara p{
+/* showcase text */
+
+#headerpara{
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: whitesmoke;
-    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+
+
+}
+
+#headerpara a{
+    height: 6vh;
+    width: 12vw;
+    background-color: #4e6d0d;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    margin: 0.6rem;
+    border-radius: 5px;
+    
 }
