@@ -203,5 +203,31 @@
     height: 80%;
 }
 
+/* Section: contact us */
 
+#contactus{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    
+}
+.contact{
+    border: 1px solid lightgreen;
+    background-color: #4e6d0d;
+    
+}
+
+.contact p i{
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.contact p {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#contactus .contact, #contactus .map {
+    flex: 1;
+}
 
