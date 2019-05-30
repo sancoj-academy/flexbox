@@ -235,4 +235,10 @@
 #contactus .contact, #contactus .map {
     flex: 1;
 }
+/* Map */
+.map{
+    height: 100%;
+    
+}
+
 
