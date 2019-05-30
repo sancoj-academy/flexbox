@@ -218,8 +218,13 @@
 }
 
 .contact p i{
+    color: whitesmoke;
+    margin: 1rem;
+}
+.contact h2{
     padding: 1rem;
     color: whitesmoke;
+    margin: 1rem;
 }
 
 .contact p {
